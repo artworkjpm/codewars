@@ -23,4 +23,5 @@ document.body.innerHTML = `
 
 setup();
 
+document.getElementsByTagName("span")[2].click();
 console.log(document.body.innerHTML);
